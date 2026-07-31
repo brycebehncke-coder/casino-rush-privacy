@@ -136,7 +136,8 @@
                 Apple Game Center, Apple supplies your Game Center display
                 name and manages your leaderboard identity. Google AdMob may
                 process device identifiers, IP address, ad interactions, and
-                diagnostic information to provide and measure ads, prevent
+                diagnostic information to deliver non-personalized ads,
+                perform frequency capping and aggregated reporting, prevent
                 fraud, and comply with law.
               </p>
             </div>
@@ -150,6 +151,9 @@
                 Retro Bet uses Google Mobile Ads and Google's consent tools.
                 A banner appears at the bottom of the app, and a full-screen ad
                 may appear at a natural break after ten minutes of active play.
+                Retro Bet requests non-personalized treatment for every ad and
+                does not ask for permission to track activity across other
+                companies' apps and websites.
                 Optional consumable play-coin packs use Apple's StoreKit
                 purchase system. Apple provides verified transaction
                 information so the app can deliver purchased coins and avoid
@@ -179,8 +183,10 @@
               <h3>Advertising choices</h3>
               <p>
                 Where required, the app asks for advertising consent before
-                requesting ads and provides a way to reopen privacy choices.
-                Your device settings may also limit advertising identifiers.
+                requesting ads. Settings includes Privacy Choices whenever
+                Google's consent system requires it, allowing you to review or
+                withdraw that consent. Retro Bet still requests
+                non-personalized ad treatment after consent.
                 Learn more in the
                 <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
                 Apple explains how it handles purchase and Game Center
@@ -198,7 +204,12 @@
                 If you enable Game Center, Retro Bet submits three score
                 totals to Apple: your current play-coin balance, largest profit
                 from one round, and cumulative play coins lost. Apple handles
-                those scores and your Game Center profile under the
+                those scores and your Game Center profile. The app also uses
+                100 hidden Game Center achievements to calculate the percentage
+                of players who have ever collected each card. Those irreversible
+                achievements do not restore or change your current local card
+                inventory after you sell a card. Apple handles this information
+                under the
                 <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.
               </p>
             </div>
@@ -206,6 +217,20 @@
 
           <article>
             <p class="policy-index">06</p>
+            <div>
+              <h3>Retention and deletion</h3>
+              <p>
+                Retro Bet keeps gameplay state on your device until you reset
+                it in the app or delete the app. Deleting the app removes that
+                local data from the device. Apple keeps purchase and Game
+                Center records, and Google keeps advertising data, according
+                to their own retention and deletion policies linked above.
+              </p>
+            </div>
+          </article>
+
+          <article>
+            <p class="policy-index">07</p>
             <div>
               <h3>Policy updates</h3>
               <p>
@@ -246,23 +271,27 @@
           </p>
           <h2>Need a hand?</h2>
           <p>
-            For gameplay questions, technical help, or privacy questions, use
-            the official support contact channel on the Retro Bet App Store
-            listing.
+            For gameplay questions, technical help, purchase-delivery issues,
+            or privacy questions, open a request through the official Retro
+            Bet support tracker.
           </p>
         </div>
         <ol aria-label="How to contact Retro Bet support">
           <li>
             <span>1</span>
-            <p>Open the App Store on your Apple device.</p>
+            <p>
+              <a href="https://github.com/brycebehncke-coder/casino-rush-privacy/issues/new">
+                Open a Retro Bet support request.
+              </a>
+            </p>
           </li>
           <li>
             <span>2</span>
-            <p>Find and open the Retro Bet app listing.</p>
+            <p>Describe what happened, your Apple device, and your iOS version.</p>
           </li>
           <li>
             <span>3</span>
-            <p>Choose App Support to use the listed contact channel.</p>
+            <p>Do not include payment details or other sensitive information.</p>
           </li>
         </ol>
       </section>

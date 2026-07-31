@@ -566,6 +566,13 @@ nav a:hover {
   color: #3f4a5b;
 }
 
+.support-section li a {
+  color: #725514;
+  font-weight: 800;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
 footer {
   display: flex;
   align-items: center;
