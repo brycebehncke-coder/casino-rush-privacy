@@ -175,14 +175,19 @@
                 When Game Center and live rankings are enabled, Jackpot Inc
                 receives your scoped Game Center identifier and display name,
                 random installation ID, current play-coin balance, owned and
-                sold card IDs, creator-code status, equipped booster, referral
-                share code, referrer and redemption status, one-time reward
-                ledger, and server checkpoint times. The service uses that
-                state to project card income for up to seven days, refresh the
-                Most Money ranks once per minute while devices are offline,
-                prevent duplicate referral credits, and award each eligible
-                player one 500,000-play-coin referral bonus. It is used for app
-                functionality and not for advertising or tracking.
+                sold card IDs, creator-code redemption status, equipped
+                booster, referral share code, referrer and redemption status,
+                one-time reward ledger, and server checkpoint times. The
+                service uses that state to project card income for up to seven
+                days, refresh the Most Money ranks once per minute while
+                devices are offline, prevent duplicate creator-code and
+                referral rewards, show how many successful invites used your
+                personal referral code, and award each eligible player one
+                500,000-play-coin referral bonus. It also displays aggregate
+                redemption totals for each promotional creator code; those
+                totals do not expose player identities. This information is
+                used for app functionality and not for advertising or
+                tracking.
               </p>
             </div>
           </article>
@@ -234,8 +239,9 @@
               <p>
                 Live-ranking data is retained while needed to provide the
                 leaderboard. Idempotency records used to prevent duplicate
-                balance and referral updates expire after 30 days. Referral
-                redemption markers may be retained to prevent repeat rewards.
+                balance and referral updates expire after 30 days. Creator-code
+                and referral redemption markers may be retained to prevent
+                repeat rewards and inaccurate usage counts.
                 You can request deletion of your Jackpot Inc live-ranking and
                 referral record by emailing App Support. Deleting it does not
                 delete information that Apple or Google independently controls
